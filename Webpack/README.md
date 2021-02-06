@@ -14,3 +14,18 @@ webpack-cli 是能在 Command Line 控制 Webpack 的 package
 -— save-dev 代表在開發環境下加入這個 package
 
     npm install webpack webpack-cli --save-dev
+
+<h2>新增簡單的 JavaScript 函式</h2>
+
+<h3>src/fullname.js</h3>
+
+    const fullname = (lastname, firstname) => lastname + ',' + firstname;
+
+    export default fullname;
+
+<h3>src/index.js</h3>
+
+    import fullname from './fullname';
+
+    const person = fullname('Lastname', 'Firstname');
+    console.log(person);
