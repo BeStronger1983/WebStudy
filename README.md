@@ -1,3 +1,3 @@
-# WebStudy
+WebStudy
 =
 [Webpack](Webpack/README.md)
