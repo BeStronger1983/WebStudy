@@ -69,3 +69,7 @@ webpack 會在 dist 資料夾產生 development 版的 bundle.js
 <h2>執行 npm run build</h2>
 
 webpack 會在 dist 資料夾產生 production 版的 bundle.js，內容較少
+
+<h2>執行 open index.html</h2>
+
+打開瀏覽器後，打開開發人員工具，在 Console 中會看到 Lastname,Firstname，表示執行成功。
