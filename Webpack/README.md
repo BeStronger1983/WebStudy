@@ -29,3 +29,19 @@ webpack-cli 是能在 Command Line 控制 Webpack 的 package
 
     const person = fullname('Lastname', 'Firstname');
     console.log(person);
+
+<h2>新增 webpack.config.js</h2>
+
+entry：專案從 index.js 開始執行
+
+output：專案打包後的輸出點，包含輸出檔案的檔案名稱與檔案路徑
+
+    const path = require('path');
+
+    module.exports = {
+        entry: './src/index.js',
+        output: {
+            filename: 'bundle.js',
+            path: path.resolve(__dirname,'dist')
+        }
+    }
