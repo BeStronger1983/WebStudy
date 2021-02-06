@@ -1,3 +1,3 @@
-WebStudy
+學習 Web 技術
 =
-[Webpack](Webpack/README.md)
+* [Webpack](Webpack/README.md)
