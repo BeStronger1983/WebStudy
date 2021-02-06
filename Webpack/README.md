@@ -45,3 +45,11 @@ output：專案打包後的輸出點，包含輸出檔案的檔案名稱與檔�
             path: path.resolve(__dirname,'dist')
         }
     }
+
+<h2>建立 index.html 加入打包過後的 bundle.js</h2>
+
+    <head>
+    </head>
+    <body>
+        <script src=”build/bundle.js”></script>
+    </body>
