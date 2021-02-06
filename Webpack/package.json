@@ -1,10 +1,11 @@
 {
-  "name": "Webpack",
+  "name": "webpack",
   "version": "1.0.0",
   "description": "練習 Webpack",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack --mode=development",
+    "build": "webpack --mode=production"
   },
   "keywords": [],
   "author": "wizardsoloist1983@gmail.com",

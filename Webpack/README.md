@@ -53,3 +53,11 @@ output：專案打包後的輸出點，包含輸出檔案的檔案名稱與檔�
     <body>
         <script src=”build/bundle.js”></script>
     </body>
+
+<h2>在 package.json 中設定執行 Webpack 的 script</h2>
+
+    "scripts": 
+    {
+        "start": "webpack --mode=development",
+        "build": "webpack --mode=production"
+    }
