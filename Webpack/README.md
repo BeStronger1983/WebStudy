@@ -65,3 +65,7 @@ output：專案打包後的輸出點，包含輸出檔案的檔案名稱與檔�
 <h2>執行 npm run start</h2>
 
 webpack 會在 dist 資料夾產生 development 版的 bundle.js
+
+<h2>執行 npm run build</h2>
+
+webpack 會在 dist 資料夾產生 production 版的 bundle.js，內容較少
