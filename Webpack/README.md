@@ -3,6 +3,7 @@
 <h2>參考資料</h2>
 
 1. [從零開始使用Webpack 4 — Part 1](https://medium.com/@chuanjen.wang/%E5%BE%9E%E9%9B%B6%E9%96%8B%E5%A7%8B%E4%BD%BF%E7%94%A8webpack-4-part-1-141d7a547c4a)
+2. [從零開始使用Webpack 4 — Part 2](https://medium.com/@chuanjen.wang/%E5%BE%9E%E9%9B%B6%E9%96%8B%E5%A7%8B%E4%BD%BF%E7%94%A8webpack-4-part-2-80127720a232)
 
 <h2>建立 package.json</h2>
 
