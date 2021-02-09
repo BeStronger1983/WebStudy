@@ -88,3 +88,34 @@ Loader 把 ES6 以上語法、TypeScript 轉換成瀏覽器支援的 JavaScript�
 * [babel-core](https://babeljs.io/docs/en/babel-core) 是 Babel 的核心模組。
 * [babel-loader](https://github.com/babel/babel-loader) 讓 Babel 跟 Webpack 可以轉譯 JavaScript 檔案。
 * [babel-preset-env](https://babeljs.io/docs/en/babel-preset-env) 是一個聰明的 preset，讓我們可以使用最新版本的 JavaScript 而不用擔心目標環境不同。
+
+## 在 webpack.config.js 中設定 babel-loader
+
+    const path = require('path');
+
+    module.exports = {
+        entry: './src/index.js',
+        output: {
+            filename: 'bundle.js',
+            path: path.resolve(__dirname, 'dist')
+        },
+        module: {
+            rules: [
+                {
+                    use: 'babel-loader',
+                    test: /\.js$/,
+                    exclude: /node_modules/
+                },
+            ]
+        }
+    }
+
+## webpack.config.js 的 module 介紹
+
+module 中設定 Webpack 要使用的 Loader 及規則
+
+use 為要使用的 Loader
+
+test 是正規表達式，符合條件的檔案就使用這個 Loader 處理
+
+exclude 則是排除要使用這個 Loader 處理的資料夾
