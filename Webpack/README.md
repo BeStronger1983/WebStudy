@@ -80,3 +80,11 @@ webpack 會在 dist 資料夾產生 production 版的 bundle.js，內容較少
 ## [Loader](https://webpack.js.org/concepts/loaders/)
 
 Loader 把 ES6 以上語法、TypeScript 轉換成瀏覽器支援的 JavaScript。甚至還可以讓 CSS、圖片像是程式碼一樣被 import 進來。
+
+## 安裝 Babel
+
+    npm install -D babel-loader @babel/core @babel/preset-env
+
+* [babel-core](https://babeljs.io/docs/en/babel-core) 是 Babel 的核心模組。
+* [babel-loader](https://github.com/babel/babel-loader) 讓 Babel 跟 Webpack 可以轉譯 JavaScript 檔案。
+* [babel-preset-env](https://babeljs.io/docs/en/babel-preset-env) 是一個聰明的 preset，讓我們可以使用最新版本的 JavaScript 而不用擔心目標環境不同。

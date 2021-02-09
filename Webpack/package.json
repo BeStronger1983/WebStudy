@@ -11,6 +11,9 @@
   "author": "wizardsoloist1983@gmail.com",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "babel-loader": "^8.2.2",
     "webpack": "^4.14.0",
     "webpack-cli": "^3.0.8"
   }
