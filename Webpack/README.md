@@ -119,3 +119,13 @@ use 為要使用的 Loader
 test 是正規表達式，符合條件的檔案就使用這個 Loader 處理
 
 exclude 則是排除要使用這個 Loader 處理的資料夾
+
+# 設定 .babelrc
+
+可設定於 webpack.config.js，也可以拉出來放在 .babelrc 方便重複使用
+
+    {
+        "presets": [
+            "env"
+        ]
+    }
