@@ -76,3 +76,9 @@ webpack 會在 dist 資料夾產生 production 版的 bundle.js，內容較少
 <h2>執行 open index.html</h2>
 
 打開瀏覽器後，打開開發人員工具，在 Console 中會看到 Lastname,Firstname，表示執行成功。
+
+<a href="https://webpack.js.org/concepts/loaders/">
+<h2>Loader</h2>
+</a>
+
+Loader 把 ES6 以上語法、TypeScript 轉換成瀏覽器支援的 JavaScript。甚至還可以讓 CSS、圖片像是程式碼一樣被 import 進來。
